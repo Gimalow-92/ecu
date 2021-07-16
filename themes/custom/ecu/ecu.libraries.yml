@@ -29,3 +29,14 @@ color.preview:
     color/preview.js: {}
   dependencies:
     - color/drupal.color
+
+header:
+  css:
+    layout:
+      css/layout/header/header.layout.min.css: { minified: true }
+    theme:
+      css/theme/header/header.theme.min.css: { minified: true }
+  js:
+
+  dependencies:
+

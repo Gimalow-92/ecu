@@ -1,0 +1,40 @@
+@import "smacss/global/default-variables";
+
+.header {
+  .navbar {
+    width: $container;
+    //position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    z-index: 1;
+    .navbar-brand {
+
+    }
+    .site-name-slogan {
+      color: white;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    .navbar-toggler {
+
+    }
+    .navbar-collapse {
+      .nav-item a {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: relative;
+        &.is-active,
+        &:hover {
+          border-bottom: 3px solid red;
+        }
+        &:hover {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

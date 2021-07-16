@@ -1,0 +1,22 @@
+uuid: 553eea7a-2623-4bbd-a5b6-837ecba0f54d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ecu
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ecu_help
+theme: ecu
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
